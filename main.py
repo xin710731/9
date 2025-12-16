@@ -70,7 +70,7 @@ def habit_menu() -> InlineKeyboardMarkup:
         ],
         [InlineKeyboardButton("⬅ 返回首页", callback_data="menu_main")],
     ]
-    return InlineKeyboardMarkup(habit_menu)
+    return InlineKeyboardMarkup(keyboard)
 
 
 def mood_menu() -> InlineKeyboardMarkup:
@@ -99,7 +99,7 @@ def quiz_menu() -> InlineKeyboardMarkup:
         ],
         [InlineKeyboardButton("⬅ 返回首页", callback_data="menu_main")],
     ]
-    return InlineKeyboardMarkup(quiz_menu)
+    return InlineKeyboardMarkup(keyboard)
 
 
 def read_menu() -> InlineKeyboardMarkup:
@@ -113,7 +113,7 @@ def read_menu() -> InlineKeyboardMarkup:
         ],
         [InlineKeyboardButton("⬅ 返回首页", callback_data="menu_main")],
     ]
-    return InlineKeyboardMarkup(read_menu)
+    return InlineKeyboardMarkup(keyboard)
 
 
 def random_menu() -> InlineKeyboardMarkup:
@@ -128,7 +128,7 @@ def random_menu() -> InlineKeyboardMarkup:
         ],
         [InlineKeyboardButton("⬅ 返回首页", callback_data="menu_main")],
     ]
-    return InlineKeyboardMarkup(random_menu)
+    return InlineKeyboardMarkup(keyboard)
 
 
 # ========== /start /help /about ==========
